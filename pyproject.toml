@@ -9,9 +9,14 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "black==26.1.0",
-    "jupyterlab==4.5.3",
     "pytest==9.0.2"
 ]
+analytics = [
+    "jupyterlab==4.5.3",
+    "seaborn==0.13.2",
+    "matplotlib==3.10.8"
+    
+    ]
 
 [tool.setuptools]
 py-modules = ['data', 'backend', 'frontend', 'analytics']

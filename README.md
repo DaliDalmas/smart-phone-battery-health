@@ -26,3 +26,9 @@ if you are developing, you can install extra dev dependencies
 ```
 pip install -e '.[dev]'
 ```
+
+if you want to rerun the analytics
+
+```
+pip install -e '.[analytics]'
+```
