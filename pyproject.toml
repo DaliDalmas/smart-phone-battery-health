@@ -1,0 +1,17 @@
+[project]
+name = "battery-health"
+version = "1.0"
+dependencies = [
+    "polars==1.37.1", 
+    "fastapi[standard]==0.128.0"
+    ]
+
+[project.optional-dependencies]
+dev = [
+    "black==26.1.0",
+    "jupyterlab==4.5.3",
+    "pytest==9.0.2"
+]
+
+[tool.setuptools]
+py-modules = ['data', 'backend', 'frontend', 'analytics']
